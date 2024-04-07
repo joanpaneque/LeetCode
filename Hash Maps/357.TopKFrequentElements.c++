@@ -1,9 +1,10 @@
-bool comparePairs(pair<int,int> a, pair<int,int> b) {
-    return a.second > b.second;
-}
 // Source: https://leetcode.com/problems/top-k-frequent-elements/
 // Author: Joan Paneque
 // Date: 07/04/2024
+
+bool comparePairs(pair<int,int> a, pair<int,int> b) {
+    return a.second > b.second;
+}
 
 class Solution {
 public:
